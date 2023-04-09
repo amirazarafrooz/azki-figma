@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Vaziri";
+  src: local("Vaziri"), url("../fonts/Vazir-Black-FD-UI.woff") format("woff");
+}
+@font-face {
+  font-family: "Vaziri";
+  src: local("Vaziri"), url("../fonts/Vazir-Black-FD-UI.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vaziri";
+  src: local("Vaziri"), url("../fonts/Vazir-Bold-FD-UI.woff") format("woff");
+}
+@font-face {
+  font-family: "Vaziri";
+  src: local("Vaziri"), url("../fonts/Vazir-Bold-FD-UI.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vaziri";
+  src: local("Vaziri"), url("../fonts/Vazir-Medium-FD-UI.woff") format("woff");
+}
+@font-face {
+  font-family: "Vaziri";
+  src: local("Vaziri"), url("../fonts/Vazir-Medium-FD-UI.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Vaziri";
+  src: local("Vaziri"), url("../fonts/Vazir-Regular-FD-UI.woff") format("woff");
+}
+@font-face {
+  font-family: "Vaziri";
+  src: local("Vaziri"),
+    url("../fonts/Vazir-Regular-FD-UI.woff2") format("woff2");
+}
+
+:root {
+  /*---------------- colors------------ */
+
+  --color-primary-light: #5da0fb;
+  --color-primary-main: #3e8df7;
+  --color-primary-dark: #1c79f6;
+  --color-secondary-light: #f5cd70;
+  --color-secondary-main: #f5be41;
+  --color-secondary-dark: #f8b214;
+  --color-neutral-white: #ffffff;
+  --color-neutral-25: #f9f9f9;
+  --color-neutral-50: #eaeaea;
+  --color-neutral-100: #bdbdbf;
+  --color-neutral-200: #9d9d9f;
+  --color-neutral-300: #707174;
+  --color-neutral-400: #555559;
+  --color-neutral-500: #2a2b2f;
+  --color-neutral-black: #000000;
+
+  /* -----------------fonts------------- */
+
+  --font-family: "Vaziri", sans-serif;
+
+  --font-weight-desktop-h1: 900;
+  --font-weight-desktop-h2: 700;
+  --font-weight-desktop-h3: 700;
+  --font-weight-desktop-subtitle: 500;
+  --font-weight-desktop-body: 400;
+  --font-weight-desktop-button: 700;
+  --font-weight-desktop-subtitle2: 500;
+  --font-weight-desktop-overline: 500;
+
+  --font-size-desktop-h1: 2.5rem;
+  --font-size-desktop-h2: 1.75rem;
+  --font-size-desktop-h3: 1.25rem;
+  --font-size-desktop-subtitle: 1.125rem;
+  --font-size-desktop-body: 1rem;
+  --font-size-desktop-button: 1rem;
+  --font-size-desktop-subtitle2: 0.875rem;
+  --font-size-desktop-overline: 0.75rem;
+
+  --font-LH-desktop-h1: 140%;
+  --font-LH-desktop-h2: 144%;
+  --font-LH-desktop-h3: 159%;
+  --font-LH-desktop-subtitle: 154%;
+  --font-LH-desktop-body: 149%;
+  --font-LH-desktop-button: 149%;
+  --font-LH-desktop-subtitle2: 168%;
+  --font-LH-desktop-overline: 168%;
+
+  /* -----------mobile-fonts------------- */
+  --font-weight-mobile-h1: 900;
+  --font-weight-mobile-h2: 700;
+  --font-weight-mobile-h3: 700;
+  --font-weight-mobile-subtitle: 500;
+  --font-weight-mobile-body: 400;
+  --font-weight-mobile-button: 700;
+  --font-weight-mobile-caption: 500;
+  --font-weight-mobile-overline: 500;
+
+  --font-size-mobile-h1: 2rem;
+  --font-size-mobile-h2: 1.75rem;
+  --font-size-mobile-h3: 1.125rem;
+  --font-size-mobile-subtitle: 1rem;
+  --font-size-mobile-body: 0.875rem;
+  --font-size-mobile-button: 0.875rem;
+  --font-size-mobile-caption: 0.75rem;
+  --font-size-mobile-overline: 0.625rem;
+
+  --font-LH-mobile-h1: 149%;
+  --font-LH-mobile-h2: 166%;
+  --font-LH-mobile-h3: 175%;
+  --font-LH-mobile-subtitle: 154%;
+  --font-LH-mobile-body: 169%;
+  --font-LH-mobile-button: 149%;
+  --font-LH-mobile-caption: 168%;
+  --font-LH-mobile-overline: 164%;
+
+  /* ---------shadows---------- */
+
+  --shadow-component-desktop: 0px 4px 9px rgba(0, 0, 0, 0.16);
+  --shadow-component-mobile: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  --border: 1px solid var(--color-neutral-50);
+  --border100: 1px solid var(--color-neutral-100);
+  --border200: 1px solid var(--color-neutral-200);
+  --border-radius-button: 8px;
+  --border-radius-secondary-tile: 16px;
+  --border-radius-primary-tile: 24px;
+  --border-radius-container3: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body{
+  overflow-x: hidden;
+}
