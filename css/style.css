@@ -762,7 +762,7 @@ direction: rtl;
   font-size: var(--font-size-desktop-body);
   font-weight: var(--font-weight-desktop-body);
   line-height: var(--font-LH-desktop-body);
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 .--safar{
 order: 1;
