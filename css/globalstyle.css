@@ -117,6 +117,7 @@
   --border: 1px solid var(--color-neutral-50);
   --border100: 1px solid var(--color-neutral-100);
   --border200: 1px solid var(--color-neutral-200);
+  --borderPrimary: 1px solid var(--color-primary-light);
   --border-radius-button: 8px;
   --border-radius-secondary-tile: 16px;
   --border-radius-primary-tile: 24px;
